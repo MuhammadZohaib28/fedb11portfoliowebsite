@@ -1,24 +1,14 @@
 import React from "react";
+import Header from "./components/Header/Header";
+import HeroSection from "./components/HeroSection/HeroSection";
 
 const App = () => {
-  let myName = "Muhammad Shehroz";
-
-  let studentsName = ["Shehroz", "Zohaib", "Abid"];
-
-
-
   return (
-    <div>
-      <h1>FRONTEND DEVELOPMENT</h1>
-
-      {studentsName.map((item, index) => (
-        <ul key={index}>
-          <li>{item}</li>
-        </ul>
-      ))}
-
-     
-    </div>
+    <>
+      <Header />
+      <HeroSection />
+      <Header />
+    </>
   );
 };
 
