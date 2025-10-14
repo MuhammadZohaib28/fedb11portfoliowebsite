@@ -1,17 +1,7 @@
 import React from "react";
+import "./header.css";
 
 const Header = () => {
-  const names = ["Zohaib", "Ali", "Sara", "Bisma"];
-
-  //KEY VALUE PAIR
-  const userData = {
-    name: "Zohaib",
-    dob: "7th Oct, 2025",
-    bloodGroup: "A-",
-    pNo: "0348246910",
-    age: 23,
-  };
-
   const menuItems = [
     {
       name: "Home",
@@ -32,14 +22,14 @@ const Header = () => {
   ];
 
   return (
-    <header>
-      
+    <header className="header">
       <h1>NSFB11</h1>
 
-
-      <ul>
+      <ul className="menu-items">
         {menuItems.map((item, index) => (
-          <li key={index}>{item.name}</li>
+          <li key={index} onClick={() => item.link}>
+            {item.name}
+          </li>
         ))}
       </ul>
     </header>

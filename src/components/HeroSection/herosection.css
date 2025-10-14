@@ -1,0 +1,68 @@
+.herosection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+  padding: 0.5rem 2rem;
+  background-color: #f9f9f9f5;
+  /* background-color: red; */
+  height: calc(100vh - 4rem);
+}
+
+.herosection-image img {
+  width: 300px;
+  background-color: #eaeaea;
+  border-radius: 10%;
+  height: auto;
+  /* border: 1px solid seagreen; */
+}
+
+.herosection-leftdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #eaeaea;
+  border-radius: 30px;
+  padding: 2.5rem 2rem;
+}
+
+.herosection-leftdiv h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.herosection-leftdiv span {
+  font-size: 1.5rem;
+  color: #666;
+  font-weight: bold;
+  margin-top: -30px;
+}
+
+.herosection-leftdiv p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+
+.icon{
+    width: 44px;
+    height: 44px;
+    margin-right: 8px;
+}
+
+.htmlicon{
+    color: blue;
+}
+
+.cssicon{
+    color: orange;
+}
+
+.jsicon{
+    color: rgb(213, 234, 20);
+}
+
+.reacticon{
+    color: #61DBFB;
+}
