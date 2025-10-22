@@ -1,5 +1,5 @@
 import React from "react";
-import mypicture from "../../assets/zp.png";
+import mypicture from "../../assets/abidsiddiqui.webp";
 import "./herosection.css";
 import { FaCss3, FaHtml5, FaJs, FaReact } from "react-icons/fa6";
 
@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <div className="herosection">
       <div className="herosection-leftdiv">
-        <h1>Muhammad Zohaib</h1>
+        <h1>Abid Ahmed Siddiqui</h1>
         <span>Frontend Developer</span>
         <p>
           Hello, a frontend developer based in Karachi, Pakistan. Looking
